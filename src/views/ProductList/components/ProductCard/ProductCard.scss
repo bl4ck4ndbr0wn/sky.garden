@@ -1,0 +1,62 @@
+.product {
+  margin-left: 18rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+
+  &-title {
+    margin-bottom: .75rem;
+    color: #171717;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+}
+
+.d-percentage {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  background-color: #55D187;
+  height: 0;
+  width: 6rem;
+  padding: 1rem;
+
+  &__text {
+    margin-top: -0.5rem;
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
+
+.jadira-bags {
+  height: 16px;
+  width: 129px;
+  color: #777777;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.new-price {
+  color: #55D187;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.old-price {
+  color: #787878;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}

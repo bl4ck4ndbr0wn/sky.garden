@@ -1,0 +1,105 @@
+.toolbar {
+  background-color: #FFFFFF;
+  padding-top: 1rem;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+
+    &__title {
+      color: #1F1F1F;
+      font-family: Raleway, sans-serif;
+      font-size: 58px;
+      font-weight: 800;
+      line-height: 69px;
+    }
+
+    &__description {
+      width: 433px;
+      color: #1F1F1F;
+      font-family: Raleway, sans-serif;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    & span {
+      color: #1F1F1F;
+      font-family: Raleway, sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 22px;
+    }
+  }
+
+  &__images {
+    display: flex;
+  }
+}
+
+.shoppinglady {
+  height: 301px;
+  width: 380px;
+}
+
+.discountcircle {
+  height: 236.83px;
+  width: 236.83px;
+  margin-left: -6rem;
+  margin-top: 1.5rem;
+}
+
+.text-block {
+  position: absolute;
+  color: white;
+  margin-top: -9rem;
+  margin-left: -1rem;
+
+  & h4 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    text-align: center;
+  }
+}
+
+.discount-line {
+  transform: rotate(-8deg);
+  margin-top: -2rem;
+  height: 19.06px;
+  width: 63.21px;
+}
+
+.polygon {
+  height: 138px;
+  width: 131px;
+  position: absolute;
+
+  & .black-bubble {
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    height: 138px;
+    width: 131px;
+    background-color: #000000;
+    margin: -7rem 0px 0px -7.5rem;
+  }
+
+  &-text-block {
+    position: absolute;
+    margin: -2rem 0 0 1rem;
+
+    &__text {
+      height: 57px;
+      width: 84px;
+      color: #FFFFFF;
+      font-family: Raleway, sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 19px;
+      text-align: center;
+      margin: -3.3rem 0 0 -7rem;
+    }
+  }
+}
